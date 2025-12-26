@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT RESOURCE HUB</title>
+    <style>
+     * {
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+                body {
+            font-family: Arial, sans-serif;
+            line-height: 2;
+            color: #333;
+            background: #f4f4f4;
+        }
+                nav {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+                nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+                nav a:hover {
+            color: #4CAF50;
+        }
+
+        header {
+            background: #4caF50;
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+         .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border: radius 8px;;
+        }
+
+        .page {
+            display: none;
+        }
+
+        .page:target {
+            display: block;
+        }
+
+        #portfolio {
+            display: block;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 1rem;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+
+        .box {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-left: 4px solid #4CAF50;
+        }
+             .box h3 {
+            color: #4CAF50;
+            margin-bottom: o.5rem;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+                button {
+            background: #4CAF50;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background: #4CAF50;
+            color:white;
+            padding: 5px 15px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+
+
+
+
+        </style>
+</head>
+<body>
+    <nav>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#home">home</a>
+        <a href="#resources">resources</a>
+        <a href="#tips">tips</a>
+        <a href="#contact">about</a>
+
+    </nav>
+    <header>
+        <h1>student resource hub</h1>
+        <p>your simple guide to academic success</p>
+    </header>
+    <div class="container">
+        <div id="portfolio" class="page">
+            <h2>portfolio</h2>
+                        <div class="box">
+                            <h3>about page</h3>
+                            <p><strong>Name:</strong>Hamza Toufeeque</p>
+                            <p><strong>University:</strong>PUCIT</p>
+                            <p><strong>qualification:</strong>BSCS</p>
+                            <p><strong>Email:</strong>hamzatofique820</p>
+
+
+        </div>
+         <div class="box">
+                 <h3>Skills</h3>
+                 <span class="skill-tag">web developer learner</span>
+                 <span class="skill-tag">database</span>
+                 <span class="skill-tag">ms Access</span>
+                 <span class="skill-tag">html and CSS</span>
+    </div>
+         <div class="box">
+                <h3>Programming Languages</h3>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">C Language</span>
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+            </div>
+
+                <div class="box">
+                    <h3>about me</h3>
+                    <p>i am a dedicated computer learner seeking for new ideas and concept in this world and is highly addaptive to new situations</p>
+                </div>
+        </div>
+        <!--home page-->
+         <div id="home" class="page">
+            <h2>Welcome</h2>
+            <p>this website helps you to find study resources</p>
+             <div class="box">
+                <h3>study material</h3>
+                <p>find notes and guides for your subjects</p>
+             </div>
+                <div class="box">
+                    <h3>study tips</h3>
+                    <p>learn how to manage your time and resources</p>
+                </div>
+                  <div class="box">
+                    <h3>get help</h3>
+                    <p>resourceto help you in exams and assignments</p>
+                  </div>
+         </div>
+         <!--page 3-->
+         <div id="resources" class="page">
+            <h3>academic resources</h3>
+            <p>useful website for academic resources</p>
+               <div class="box">
+                <h3>Mathematics</h3>
+                <p>khan Academy - free maths notes and resource material</p>
+               </div>
+                 <div class="box">
+                    <h3>computer Science</h3>
+                    <p>W3schools-learn HTML CSS JavaScript</p>
+                 </div>
+                 <div class="box">
+                    <h3>science</h3>
+                    <p>crashcourse-learn physics and science through video and explaination</p>
+                 </div>
+                 <div class="box">
+                    <h3>language</h3>
+                    <p>duolingo-learn free language courses</p>
+                 </div>
+               
+         </div>
+         <!--page 4-->
+          <div id="tips" class="page">
+            <h2>study tips</h2>
+            <div class="box">
+                <h3>make a Schedule</h3>
+                <p>plan your time.study for atleast 1 hour and take 25 mint rest beetween</p>
+            </div>
+            <div class="box">
+                <h3>take notes</h3>
+                <p>write ddown all important points they help you in better understanding</p>
+            </div>
+            <div class="box">
+                <h3>study with Friends</h3>
+                <p>form groups to Help eachother to learn</p>
+            </div>
+            <div class="box">
+                <h3>eat healthy</h3>
+                <p>eat healthyso that you remain fit and active</p>
+            </div>
+            
+          </div>
+          <!-- page 5-->
+              <div id="contact" class="page">
+                <h2>contact me</h2>
+                <p>send me a message</p>
+                <form>
+                    <input type="text"placeholder ="your name"required>
+                     <input type="email"placeholder ="your email"required>
+                      <input type="text"placeholder ="your subject"required>
+                      <textarea rows="5" placeholder="your message"required></textarea>
+                      <button type="submit">send message</button>
+                </form>
+              </div> 
+            </div>
+            <footer>
+                <p>&copy;2025-student resourcehub my Hamza Toufeeque</p>
+            </footer>
+         
+
+
+    
+</body>
+</html>
